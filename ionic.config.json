@@ -1,0 +1,7 @@
+{
+  "name": "horoscope",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
