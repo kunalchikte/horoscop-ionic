@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button ion-button (click)="closeModal()"> < Back</ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="{{Horoscopeimg}}" alt="server">
+  <h2 class="name">{{HoroscopeName}}</h2>
+  <p class="date_range">{{dateRange}}</p>
+  <p class="cur_date">Horoscope for {{current_date}}</p>
+  <p class="description">{{description}}</p>
+  <p><span>Lucky Number: </span>{{lucky_number}}</p>
+  <p><span>Lucky Time: </span>{{lucky_time}}</p>
+  <p><span>Mood: </span>{{mood}}</p>
+  <p><span>Compatibility: </span>{{compatibility}}</p>
+  <p><span>Color: </span>{{color}}</p>
+</ion-content>
