@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'horoscope',
+    loadChildren: () => import('./horoscope/horoscope.module').then( m => m.HoroscopePageModule)
+  },
 ];
 
 @NgModule({

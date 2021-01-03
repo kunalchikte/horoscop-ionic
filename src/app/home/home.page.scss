@@ -25,3 +25,28 @@
 #container a {
   text-decoration: none;
 }
+
+img{
+  max-width: 60%;
+  display: block;
+  margin: auto;
+}
+
+ion-card-title{
+  text-align: center;
+  margin: 3%;
+  font-size: 16px;
+}
+
+.button-inner{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+ion-card{
+  margin: 0;
+}
+
+.days-segment{
+  background-color: #fff;
+}
